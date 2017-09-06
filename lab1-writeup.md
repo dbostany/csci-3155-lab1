@@ -42,8 +42,10 @@ that name is bound. Briefly explain your reasoning (in no more than 1–2 senten
 ```
 
 ##### The use of x at line 3 is bound at which line?
+- x at line 3 is bound on line 2 where x is passed into function f as a parameter.
 
 ##### The use of x at line 6 is bound at which line?
+- 
 
 ##### The use of x at line 10 is bound at which line?
 
