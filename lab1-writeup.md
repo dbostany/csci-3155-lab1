@@ -24,3 +24,9 @@ that name is bound. Briefly explain your reasoning (in no more than 1–2 senten
 
 ##### The use of pi at line 7 is bound at which line?
     - The pi at line 7 is bound at line 1 because it is used and defined outside of the scope of circumference.
+
+```Scala
+1       val x = 3
+2       def f(x: Int): Int =
+3           x match {
+```
