@@ -29,4 +29,14 @@ that name is bound. Briefly explain your reasoning (in no more than 1–2 senten
 1       val x = 3
 2       def f(x: Int): Int =
 3           x match {
+4               case 0 => 0
+5               case x=> {
+6                   val y = x + 1
+7                   ({
+8                       val x = y + 1
+9                       y
+10                  } * f(x - 1))
+11              }
+12          }
+13      val y = x + f(x)
 ```
