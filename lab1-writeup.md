@@ -40,3 +40,12 @@ that name is bound. Briefly explain your reasoning (in no more than 1–2 senten
 12          }
 13      val y = x + f(x)
 ```
+
+##### The use of x at line 3 is bound at which line?
+
+##### The use of x at line 6 is bound at which line?
+
+##### The use of x at line 10 is bound at which line?
+
+##### The use of x at line 13 is bound at which line?
+
