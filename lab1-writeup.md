@@ -8,7 +8,7 @@ Any non-empty answer will receive full credit.
 2. Scala Basics: Binding and Scope. For each the following uses of names, give the line where
 that name is bound. Briefly explain your reasoning (in no more than 1–2 sentences).
 
-⋅⋅⋅ (a) Consider the following Scala code.
+    (a) Consider the following Scala code.
 
 ```Scala
     1   val pi = 3.14
