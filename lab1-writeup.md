@@ -20,10 +20,10 @@ that name is bound. Briefly explain your reasoning (in no more than 1–2 senten
     7     pi * r * r
 ```
 ##### The use of pi at line 4 is bound at which line?
-    - The pi at line 4 is bound by the pi at line 3 because it is declared within the same scope. The pi on line 1 is out of scope.
+- The pi at line 4 is bound by the pi at line 3 because it is declared within the same scope. The pi on line 1 is out of scope.
 
 ##### The use of pi at line 7 is bound at which line?
-    - The pi at line 7 is bound at line 1 because it is used and defined outside of the scope of circumference.
+- The pi at line 7 is bound at line 1 because it is used and defined outside of the scope of circumference.
 
 ```Scala
 1       val x = 3
