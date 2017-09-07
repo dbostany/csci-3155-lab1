@@ -63,18 +63,18 @@ that name is bound. Briefly explain your reasoning (in no more than 1–2 senten
 ```
 - The body of g is well typed if the function returns the same type consistently. g is well typed because no matter the value of x, g returns a value of type tuple: ((int, int) int). The name 'a' is of type int and 'b' is of type (int, int).
 
-    (b, 1): ((int, int) int) because
-        b: (int, int) because
-            (x, 3): (int, int) because
-                x: int
-                3: int
-        1: int
-        
-    (b, a + 2): ((int, int) int) because
-        b: (int, int) because
-            (x, 3): (int, int) because
-                x: int
-                3: int
-        a + 2: int because
-            a: int
-            2: int
+        (b, 1): ((int, int) int) because
+            b: (int, int) because
+                (x, 3): (int, int) because
+                    x: int
+                    3: int
+            1: int
+
+        (b, a + 2): ((int, int) int) because
+            b: (int, int) because
+                (x, 3): (int, int) because
+                    x: int
+                    3: int
+            a + 2: int because
+                a: int
+                2: int
